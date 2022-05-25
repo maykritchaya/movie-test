@@ -1,0 +1,55 @@
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    position: fixed;
+    background: #FAF3EB;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+    background-color: #0009;
+}
+.navbar .menu li a{ /*แถบเมนู*/
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+.navbar .menu li{
+    display: inline-block; /*เรียงเป็นแถวเดียว*/
+    list-style: none;
+}
+.navbar .menu li a:hover{ /*เมื่อเอาmouseไปholdปุ่ม*/
+    color: #FCE4E2;
+}
+h1 {
+    font-size: 40px;
+    padding-top: 180px;
+}
+.navbar.sticky {
+    padding: 15px 0;
+    background: black
+}
+
+/* movie poster */
+img{
+	max-width: 70%;
+}
+.gallery{
+	background-color: #dbddf1;
+	padding: 80px 0;
+  padding-left: 100px;
+}
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	width: 100%;
+	box-shadow: 0 0 15px rgba(0,0,0,0.3);
+	cursor: pointer;
+}
